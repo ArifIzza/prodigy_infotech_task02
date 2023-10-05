@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b8f45147f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" alt="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span>Web Developer</span></p>
+                <h1>Hi, I'm <span>Izza</span><br>Arif From Islamabad</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm Izza, an aspiring software engineer and currently an undergraduate student
+                        pursuing my degree in Computer Science. My journey into the world of programming began
+                        with a curiosity to understand how technology powers our daily lives. With a strong passion for
+                        coding and problem-solving, I'm enthusiastic about exploring the latest trends in software
+                        development. My interests range from front-end web development, where I enjoy creating user-
+                        friendly and visually appealing interfaces, to back-end systems where I love designing efficient
+                        and scalable solutions.During my academic journey, I've been fortunate to collaborate with
+                        fellow students on various projects, where I've honed my skills in languages like Python, Java, and
+                        JavaScript. I'm excited about the opportunities that lie ahead in my journey as a software
+                        engineer, and I look forward to making a positive impact in the tech
+                        world.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</l i>
+                            <li><span>App Development</span><br>Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Web Development internship at CodSoft</li>
+                            <li><span>2023 - Currrent</span><br>UX/UI Design Training at UX/UI Bunch</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC 92.81% From FG Public High School</li>
+                            <li><span>2020</span><br>HSSC 79.45% From The Scholars Science College</li>
+                            <li><span>2023</span><br>BS CGPA: 3.30 From Comsats University Islamabad (Undergraduate)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Create websites that adapt seamlessly to various screen sizes and devices, ensuring a consistent
+                        user experience on desktops, tablets, and smartphones.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Focus on creating intuitive user interfaces and enhancing user experiences through thoughtful
+                        design, optimizing navigation, and maximizing engagement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-code-compare"></i>
+                    <h2>Web Redesign</h2>
+                    <p>Modernize and improve their existing websites, revamping their design, layout, and user
+                        experience to better meet current trends and user expectations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="gym.png" alt="">
+                    <div class="layer">
+                        <h3>Gym and Fitness Club</h3>
+                        <p>Many people join gym to remain physically fit. This website will help people to get
+                            registered. Many people join gym to remain physically fit. This website will help people to
+                            get registered.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music System(Moodify)</h3>
+                        <p>Moodify is a facial expression recognition-based music website that cheer up users and saves
+                            time while searching for a song that matches their mood. Moreover, it will suggest the songs
+                            of user’s mood. It provides the perfect soundtrack for any given situation.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Effective heart disease prediction system (EHDPS)</h3>
+                        <p>The app will record daily health information.The system will check the daily record of the
+                            patient and if the patient is at the borderline of any heart disease the system will notify
+                            the hospital and user.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>izzahonmain157@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03015192560</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="MyCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Crafting code and innovation © Izza Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
